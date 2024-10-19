@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather application</title>
+    <link rel="stylesheet" href="style2.css">
+     <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+         <input type="text" placeholder="enter city name" >
+         <button><img src="images/search.png"></button>
+        </div>
+
+        <div class="err">
+            <p>Enter valid city name</p>
+        </div>
+
+
+        <div class="weather">
+
+            <div class="outer">
+            <div class="imgdiv">
+                <img src="images/haze.png" alt="weather-img" class="weather-icon" >
+                </div>
+                   <div class="temp1"> 
+                    <p class="temp-max"></p>
+                    <p class="temp-min"></p>
+                    <p class="feels" ></p>
+                   </div>
+            </div>
+                
+            <p id="report"></p>
+            <h1 class="temp">temp</h1>
+            <h2 class="city">city</h2>
+
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png" alt="">
+                    <div id="other">
+                        <p id="humidity"></p>
+                    <p>Humidity</p>
+                    </div>
+
+                    
+                </div>
+
+                <div class="col">
+                    <img src="images/wind.png" alt="">
+                   <div id="other">
+                     <p id="wind"> </p>
+                    <p>windspeed</p>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </div>
+   
+    <!-- <script src="app.js"></script> -->
+     <script src="new.js"></script>
+    
+</body>
+</html>
